@@ -1,0 +1,36 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "Back_And_Front",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js",
+    "build":"cd alsaraha && ng build --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulfattah1/New_Project.git"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.2.0",
+    "mongodb": "*",
+    "mongoose": "*",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.17.3",
+    "serve-favicon": "~2.4.5",
+    "socket.io": "^2.1.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdulfattah1/New_Project/issues"
+  },
+  "homepage": "https://github.com/Abdulfattah1/New_Project#readme"
+}
